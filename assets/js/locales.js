@@ -9,20 +9,6 @@ export const locales = [
     validate: 'en',
     default: true
   }, 
-  {
-    code: 'es',
-    file: 'es.json',
-    iso: 'es-419',
-    name: 'Español',
-    validate: 'es',  
-  },
-  {
-    code: 'it',
-    file: 'it.json',
-    iso: 'it-IT',
-    name: 'Italiano',
-    validate: 'it',
-  }
 ];
 
 export const localeCodes = locales.map(locale => locale.code);
